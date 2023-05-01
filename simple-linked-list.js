@@ -61,15 +61,16 @@ class List {
    * @return The linked list itself
    */
   add(nextValue) {
-    if (nextValue instanceof Element) {
-
-      if (this.head !== null) {
-        nextValue.next = this.head
-      }
-
-      this.#head = nextValue;
-      this.#length++;
+    if (!(nextValue instanceof Element)) {
+      throw new Error('Value must be instance of Element type')
     }
+
+    if (this.head !== null) {
+      nextValue.next = this.head
+    }
+
+    this.#head = nextValue;
+    this.#length++;
     return this;
   }
 

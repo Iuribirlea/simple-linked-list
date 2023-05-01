@@ -129,3 +129,12 @@ describe('Lists with multiple elements', () => {
     ]);
   });
 });
+
+describe('List with incorrect data', () => {
+  test('throws an error when add with invalid element to list', () => {
+    const list = new List();
+    expect(() => {
+      list.add('not an element');
+    }).toThrow();
+  })
+})
