@@ -28,17 +28,4 @@ implement your own abstract data type.
 
 ## Source
 
-### Created by
-
-- @apapirovski
-
-### Contributed to by
-
-- @maruthimohan
-- @matthewmorgan
-- @rchavarria
-- @SleeplessByte
-
-### Based on
-
 Inspired by 'Data Structures and Algorithms with Object-Oriented Design Patterns in Ruby', singly linked-lists. - https://web.archive.org/web/20160731005714/http://brpreiss.com/books/opus8/html/page96.html
